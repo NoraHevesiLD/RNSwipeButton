@@ -162,10 +162,10 @@ const SwipeThumb = props => {
     disableTouch(false);
     setDefaultWidth(defaultContainerWidth);
 
-    if (backgroundColor !== TRANSPARENT_COLOR) {
-      setBackgroundColor(TRANSPARENT_COLOR);
-      setBorderColor(TRANSPARENT_COLOR);
-    }
+    //if (backgroundColor !== TRANSPARENT_COLOR) {
+      //setBackgroundColor(TRANSPARENT_COLOR);
+     // setBorderColor(TRANSPARENT_COLOR);
+    //}
   }
 
   function renderThumbIcon() {
